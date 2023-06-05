@@ -11,4 +11,16 @@
 書籍の各章での演習問題について，Pythonプログラムで実行可能な部分の例を掲載します。
 
 ## 科目Bサンプル問題のPythonソースコード例
-試験センターが公開している科目Bサンプル問題について，Pythonプログラムで実行可能な状態に加工し，その例を掲載します。
+試験センターが公開している科目Bサンプル問題について，Pythonプログラムで実行可能な状態で加工し，その例を掲載します。  
+サンプル問題のオリジナルは，次のURLにあります。
+
+### 基本情報技術者試験　科目B試験サンプル問題　（2022年4月25日掲載）
+https://www.ipa.go.jp/shiken/syllabus/ps6vr7000000oett-att/fe_kamoku_b_sample.pdf
+
+#### 問1 fe_sample_b_1.ipynb
+#### 問2 fe_sample_b_2.ipynb
+
+### 基本情報技術者試験　サンプル問題セット　科目B (2022年12月26日掲載)
+https://www.ipa.go.jp/news/2022/shiken/gmcbt80000007cfs-att/fe_kamoku_b_set_sample_qs.pdf
+
+#### 問1 fe_sample_set_b_1.ipynb
