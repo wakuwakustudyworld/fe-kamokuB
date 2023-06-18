@@ -6,7 +6,7 @@
 [fe_sample_set_b_5.ipynb](https://github.com/wakuwakustudyworld/fe-kamokuB/blob/main/fe_sample_set_b_5.ipynb)
 
 ### 問2　チェックデジット
-令和4年度 ITパスポート試験 問78
+令和4年度 ITパスポート試験 問78  
 [ip_r04_78.ipynb](https://github.com/wakuwakustudyworld/fe-kamokuB/blob/main/ip_r04_78.ipynb)
 
 ### 問3　優先度付きキュー
