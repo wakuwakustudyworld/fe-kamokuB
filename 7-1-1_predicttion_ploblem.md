@@ -2,7 +2,7 @@
 こちらの問題は，オリジナル問題とサンプル問題，及び過去問題を使用しています。  
 対応する問題は，以下のとおりです。現時点で，プログラムは未完成です。
 
-<!--
+
 ### 問1　変数の上書き
 基本情報技術者試験 科目B試験サンプル問題セット 問1改 （オリジナル）  
 [7-1-1_q1.ipynb](https://github.com/wakuwakustudyworld/fe-kamokuB/blob/main/7-1-1_q1.ipynb)
@@ -10,7 +10,7 @@
 ### 問2　星を出力する手続
 ITパスポート試験　擬似言語のサンプル問題　問2  
 [ip_programming_sample_2.ipynb](https://github.com/wakuwakustudyworld/fe-kamokuB/blob/main/ip_programming_sample_2.ipynb)
-
+<!--
 ### 問3　1からmaxまでの整数の総和
 令和5年度　ITパスポート試験　問64  
 [ip_r05_64.ipynb](https://github.com/wakuwakustudyworld/fe-kamokuB/blob/main/ip_r05_64.ipynb)
