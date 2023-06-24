@@ -43,11 +43,11 @@ ITパスポート試験　擬似言語のサンプル問題　問2
 平成23年秋　基本情報技術者試験 午前 問6改 （オリジナル）  
 [7-1-1_q10.ipynb](https://github.com/wakuwakustudyworld/fe-kamokuB/blob/main/7-1-1_q10.ipynb)
 
-<!--
 ### 問11　二分探索
 基本情報技術者試験 科目B試験サンプル問題セット 問13  
 [fe_sample_set_b_13.ipynb](https://github.com/wakuwakustudyworld/fe-kamokuB/blob/main/fe_sample_set_b_13.ipynb)
 
+<!--
 ### 問12　クイックソート
 令和5年春　応用情報技術者試験　午前　問5改　（オリジナル）
 [7-1-1_q12.ipynb](https://github.com/wakuwakustudyworld/fe-kamokuB/blob/main/7-1-1_q12.ipynb)
