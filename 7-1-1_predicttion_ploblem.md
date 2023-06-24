@@ -15,12 +15,10 @@ ITパスポート試験　擬似言語のサンプル問題　問2
 令和5年度　ITパスポート試験　問64  
 [ip_r05_64.ipynb](https://github.com/wakuwakustudyworld/fe-kamokuB/blob/main/ip_r05_64.ipynb)
 
-
 ### 問4　二次方程式の解を求める関数
 オリジナル問題
 [7-1-1_q4.ipynb](https://github.com/wakuwakustudyworld/fe-kamokuB/blob/main/7-1-1_q4.ipynb)
 
-<!--
 ### 問5　配列の要素の並べ替え
 令和5年度　ITパスポート試験　問60  
 [ip_r05_60.ipynb](https://github.com/wakuwakustudyworld/fe-kamokuB/blob/main/ip_r05_60.ipynb)
@@ -45,6 +43,7 @@ ITパスポート試験　擬似言語のサンプル問題　問2
 平成23年秋　基本情報技術者試験 午前 問6改 （オリジナル）  
 [7-1-1_q10.ipynb](https://github.com/wakuwakustudyworld/fe-kamokuB/blob/main/7-1-1_q10.ipynb)
 
+<!--
 ### 問11　二分探索
 基本情報技術者試験 科目B試験サンプル問題セット 問13  
 [fe_sample_set_b_13.ipynb](https://github.com/wakuwakustudyworld/fe-kamokuB/blob/main/fe_sample_set_b_13.ipynb)
