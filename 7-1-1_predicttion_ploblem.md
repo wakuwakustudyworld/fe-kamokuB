@@ -1,7 +1,6 @@
 ## 7-1-1 問題
 こちらの問題は，オリジナル問題とサンプル問題，及び過去問題を使用しています。  
-対応する問題は，以下のとおりです。現時点で，プログラムは未完成です。
-
+対応する問題は，以下のとおりです。
 
 ### 問1　変数の上書き
 基本情報技術者試験 科目B試験サンプル問題セット 問1改 （オリジナル）  
@@ -47,7 +46,6 @@ ITパスポート試験　擬似言語のサンプル問題　問2
 基本情報技術者試験 科目B試験サンプル問題セット 問13  
 [fe_sample_set_b_13.ipynb](https://github.com/wakuwakustudyworld/fe-kamokuB/blob/main/fe_sample_set_b_13.ipynb)
 
-<!--
 ### 問12　クイックソート
 令和5年春　応用情報技術者試験　午前　問5改　（オリジナル）
 [7-1-1_q12.ipynb](https://github.com/wakuwakustudyworld/fe-kamokuB/blob/main/7-1-1_q12.ipynb)
@@ -56,7 +54,7 @@ ITパスポート試験　擬似言語のサンプル問題　問2
 基本情報技術者試験 科目B試験サンプル問題セット 問12  
 [fe_sample_set_b_12.ipynb](https://github.com/wakuwakustudyworld/fe-kamokuB/blob/main/fe_sample_set_b_12.ipynb)
 
-### 問14　ビンソート
+### 問14　配列を特徴付ける代表値
 基本情報技術者試験 科目B試験サンプル問題セット 問14  
 [fe_sample_set_b_14.ipynb](https://github.com/wakuwakustudyworld/fe-kamokuB/blob/main/fe_sample_set_b_14.ipynb)
 
@@ -64,9 +62,4 @@ ITパスポート試験　擬似言語のサンプル問題　問2
 オリジナル問題
 [7-1-1_q15.ipynb](https://github.com/wakuwakustudyworld/fe-kamokuB/blob/main/7-1-1_q15.ipynb)
 
-### 問16　三目並べの評価値
-基本情報技術者試験 科目B試験サンプル問題セット 問15  
-[fe_sample_set_b_15.ipynb](https://github.com/wakuwakustudyworld/fe-kamokuB/blob/main/fe_sample_set_b_15.ipynb)
--->
-
-問17〜20は，情報セキュリティ分野のため，プログラムはありません。
+問16〜20は，問題にプログラムがないので，ソースコードの用意はありません。
