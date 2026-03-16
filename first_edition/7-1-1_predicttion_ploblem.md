@@ -8,11 +8,11 @@
 
 ### 問2　星を出力する手続
 ITパスポート試験　擬似言語のサンプル問題　問2  
-[ip_programming_sample_2.ipynb](./official_questions/ip_programming_sample_2.ipynb)
+[ip_programming_sample_2.ipynb](../official_questions/ip_programming_sample_2.ipynb)
 
 ### 問3　1からmaxまでの整数の総和
 令和5年度　ITパスポート試験　問64  
-[ip_r05_64.ipynb](./official_questions/ip_r05_64.ipynb)
+[ip_r05_64.ipynb](../official_questions/ip_r05_64.ipynb)
 
 ### 問4　二次方程式の解を求める関数
 オリジナル問題
@@ -20,7 +20,7 @@ ITパスポート試験　擬似言語のサンプル問題　問2
 
 ### 問5　配列の要素の並べ替え
 令和5年度　ITパスポート試験　問60  
-[ip_r05_60.ipynb](./official_questions/ip_r05_60.ipynb)
+[ip_r05_60.ipynb](../official_questions/ip_r05_60.ipynb)
 
 ### 問6　2進数の乗算を行うプログラム
 平成29年春　基本情報技術者試験 午前 問5改 （オリジナル）  
@@ -28,7 +28,7 @@ ITパスポート試験　擬似言語のサンプル問題　問2
 
 ### 問7　リストの要素削除
 基本情報技術者試験 科目B試験サンプル問題セット 問10  
-[fe_sample_set_b_10.ipynb](./official_questions/fe_sample_set_b_10.ipynb)
+[fe_sample_set_b_10.ipynb](../official_questions/fe_sample_set_b_10.ipynb)
 
 ### 問8　2分木の記号を出力
 平成26年春　基本情報技術者試験 午前 問6改 （オリジナル）  
@@ -36,7 +36,7 @@ ITパスポート試験　擬似言語のサンプル問題　問2
 
 ### 問9　ビンソート
 基本情報技術者試験 科目B試験サンプル問題セット 問11  
-[fe_sample_set_b_11.ipynb](./official_questions/fe_sample_set_b_11.ipynb)
+[fe_sample_set_b_11.ipynb](../official_questions/fe_sample_set_b_11.ipynb)
 
 ### 問10　ハッシュへの格納
 平成23年秋　基本情報技術者試験 午前 問6改 （オリジナル）  
@@ -44,7 +44,7 @@ ITパスポート試験　擬似言語のサンプル問題　問2
 
 ### 問11　二分探索
 基本情報技術者試験 科目B試験サンプル問題セット 問13  
-[fe_sample_set_b_13.ipynb](./official_questions/fe_sample_set_b_13.ipynb)
+[fe_sample_set_b_13.ipynb](../official_questions/fe_sample_set_b_13.ipynb)
 
 ### 問12　クイックソート
 令和5年春　応用情報技術者試験　午前　問5改　（オリジナル）  
@@ -52,11 +52,11 @@ ITパスポート試験　擬似言語のサンプル問題　問2
 
 ### 問13　配列の類似度計算
 基本情報技術者試験 科目B試験サンプル問題セット 問12  
-[fe_sample_set_b_12.ipynb](./official_questions/fe_sample_set_b_12.ipynb)
+[fe_sample_set_b_12.ipynb](../official_questions/fe_sample_set_b_12.ipynb)
 
 ### 問14　配列を特徴付ける代表値
 基本情報技術者試験 科目B試験サンプル問題セット 問14  
-[fe_sample_set_b_14.ipynb](./official_questions/fe_sample_set_b_14.ipynb)
+[fe_sample_set_b_14.ipynb](../official_questions/fe_sample_set_b_14.ipynb)
 
 ### 問15　k-NNアルゴリズム
 オリジナル問題
