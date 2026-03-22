@@ -50,9 +50,24 @@ class Array:
         arr._data = list(values)
         return arr
 
-    def __getitem__(self, index: int) -> Any:
-        self._validate_index(index)
-        return self._data[index - 1]
+    def __getitem__(self, index):
+        # indexがスライス（範囲指定）の場合の処理
+        if isinstance(index, slice):
+            # 1始まりの添字を、Python標準の0始まりの添字に変換する
+            start = index.start - 1 if index.start is not None else None
+            stop = index.stop - 1 if index.stop is not None else None
+            step = index.step
+            
+            # 内部のリスト(_data)をスライスして取得
+            sliced_data = self._data[start:stop:step]
+            
+            # 取得したリストから新しいArrayオブジェクトを作って返す
+            return self.__class__.from_literal(sliced_data)
+            
+        # indexが単一の数値の場合の処理（従来通り）
+        else:
+            self._validate_index(index)
+            return self._data[index - 1]
 
     def __setitem__(self, index: int, value: Any) -> None:
         self._validate_index(index)
@@ -87,6 +102,42 @@ class Array:
                 f"添字が範囲外です: {index}（有効範囲: 1〜{self._size}）"
             )
 
+    # 追加の機能: 配列同士の結合
+    def __add__(self, other):
+        """ + 演算子で2つのArrayを結合するためのメソッド """
+        new_arr = Array.from_literal([])
+        # 自分の要素を追加 (添字が1から始まる前提)
+        for i in range(1, len(self) + 1):
+            new_arr.append(self[i])
+        # 足される側(other)の要素を追加
+        for i in range(1, len(other) + 1):
+            new_arr.append(other[i])
+        return new_arr        
+
+    # 追加の機能: 指定された位置の要素を削除する pop メソッド
+    def pop(self, index=None):
+        """
+        指定された位置の要素を削除し、その値を返す。
+        インデックスが指定されない場合は、最後の要素を削除する。
+        """
+        # indexが指定されなかった場合、一番最後の要素（1始まりなので self._size）を指定
+        if index is None:
+            index = self._size
+            
+        # 要素が空の状態でpopしようとした場合のエラー処理
+        if self._size == 0:
+            raise IndexError("pop from empty Array")
+            
+        # 添字が範囲内かチェック（1 <= index <= self._size）
+        self._validate_index(index)
+        
+        # 内部のリスト(_data)は0始まりなので、indexから1を引いて pop する
+        popped_value = self._data.pop(index - 1)
+        
+        # 要素が1つ減ったのでサイズを更新する
+        self._size -= 1
+        
+        return popped_value
 
 class Array2D:
     """IPA擬似言語の1-based二次元配列
@@ -204,3 +255,11 @@ class Array2D:
             raise IndexError(
                 f"列番号が範囲外です: {c}（有効範囲: 1〜{self._cols}）"
             )
+    
+    # 追加の機能: 行数を返す __len__ メソッド
+    def __len__(self) -> int:
+        """
+        len() 関数で呼ばれた際に、行数を返す。
+        （Python標準の2次元リスト len([[1, 2], [3, 4]]) が 2 を返すのと同じ挙動）
+        """
+        return self._rows
