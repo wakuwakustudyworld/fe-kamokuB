@@ -15,7 +15,7 @@
 試験センターが公開している科目Bサンプル問題及び各年度の基本情報技術者試験公開問題について，Pythonプログラムで実行可能な状態で加工し，その例を掲載します。  
 内容は，official_questionsディレクトリにまとめています。
 
-サンプル問題のオリジナルは，次のURLにあります。
+問題のオリジナルは，次のURLにあります。
 
 ### 基本情報技術者試験　科目B試験サンプル問題　（2022年4月25日掲載）
 https://www.ipa.go.jp/shiken/syllabus/ps6vr7000000oett-att/fe_kamoku_b_sample.pdf
@@ -48,3 +48,37 @@ https://www.ipa.go.jp/news/2022/shiken/gmcbt80000007cfs-att/fe_kamoku_b_set_samp
 #### 問16 [fe_sample_set_b_16.ipynb](./official_questions/fe_sample_set_b_16.ipynb)
 
 問15及び問17〜20は，プログラムがないのでソースコードーの用意はありません。
+
+### 基本情報技術者試験　令和5年度（2023年度）公開問題 科目B
+https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_fe_kamoku_b_qs.pdf
+
+#### 問1 [fe_r05_b_1.ipynb](./official_questions/fe_r05_b_1.ipynb)
+#### 問2 [fe_r05_b_2.ipynb](./official_questions/fe_r05_b_2.ipynb)
+#### 問3 [fe_r05_b_3.ipynb](./official_questions/fe_r05_b_3.ipynb)
+#### 問4 [fe_r05_b_4.ipynb](./official_questions/fe_r05_b_4.ipynb)
+#### 問5 [fe_r05_b_5.ipynb](./official_questions/fe_r05_b_5.ipynb)
+
+問6は，プログラムがないのでソースコードーの用意はありません。
+
+### 基本情報技術者試験　令和6年度（2024年度）公開問題 科目B
+https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/eid2eo0000007g1d-att/2024r06_fe_kamoku_b_qs.pdf
+
+#### 問1 [fe_r06_b_1.ipynb](./official_questions/fe_r06_b_1.ipynb)
+#### 問2 [fe_r06_b_2.ipynb](./official_questions/fe_r06_b_2.ipynb)
+#### 問3 [fe_r06_b_3.ipynb](./official_questions/fe_r06_b_3.ipynb)
+#### 問4 [fe_r06_b_4.ipynb](./official_questions/fe_r06_b_4.ipynb)
+#### 問5 [fe_r06_b_5.ipynb](./official_questions/fe_r06_b_5.ipynb)
+
+問6は，プログラムがないのでソースコードーの用意はありません。
+
+### 基本情報技術者試験　令和7年度（2025年度）公開問題 科目B
+https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_fe_kamoku_b_qs.pdf
+
+#### 問1 [fe_r07_b_1.ipynb](./official_questions/fe_r07_b_1.ipynb)
+#### 問2 [fe_r07_b_2.ipynb](./official_questions/fe_r07_b_2.ipynb)
+#### 問3 [fe_r07_b_3.ipynb](./official_questions/fe_r07_b_3.ipynb)
+#### 問4 [fe_r07_b_4.ipynb](./official_questions/fe_r07_b_4.ipynb)
+#### 問5 [fe_r07_b_5.ipynb](./official_questions/fe_r07_b_5.ipynb)
+
+問6は，プログラムがないのでソースコードーの用意はありません。
+
